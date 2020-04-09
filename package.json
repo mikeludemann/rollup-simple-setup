@@ -1,0 +1,20 @@
+{
+	"name": "rollup-simple-setup",
+	"version": "1.0.0",
+	"description": "A simple setup with rollup",
+	"main": "index.js",
+	"scripts": {
+		"build": "rollup -c",
+		"watch": "rollup -c --watch"
+	},
+	"repository": "https://github.com/mikeludemann/rollup-simple-setup.git",
+	"author": "Mike Ludemann <mike-ludemann@hotmail.de>",
+	"license": "MIT",
+	"private": false,
+	"devDependencies": {
+		"jquery": "^3.4.1",
+		"rollup": "^2.3.4",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0"
+	}
+}
